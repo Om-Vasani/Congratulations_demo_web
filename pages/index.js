@@ -32,7 +32,7 @@ export default function HybridLanding() {
               ⚡
             </div>
             <div>
-              <h1 className="text-2xl font-bold">Mantra Valley </h1>
+              <h1 className="text-2xl font-bold">Mantra Valley</h1>
               <p className="text-xs text-slate-300">Super-Fast • AI Ready • Modern UI</p>
             </div>
           </div>
@@ -51,6 +51,14 @@ export default function HybridLanding() {
             Modern UI • Glassmorphism • Animations • Ultra Fast Performance  
             — Designed for instant WhatsApp lead conversion.
           </p>
+
+          {/* ADDRESS BLOCK */}
+          <div className="mt-6 bg-white/10 backdrop-blur-xl p-4 rounded-xl border border-white/10">
+            <h3 className="text-xl font-semibold">📍 Project Location</h3>
+            <p className="text-slate-200 mt-1">
+              6VR9+V6G Mantra Valley, Mota Varachha, Surat, Gujarat 394105
+            </p>
+          </div>
 
           {/* BUTTON */}
           <button
