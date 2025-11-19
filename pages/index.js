@@ -17,6 +17,12 @@ export default function HybridLanding() {
     setTimeout(() => setShowToast(false), 2300)
   }
 
+  function openGoogleMaps() {
+    const mapsLink =
+      "https://www.google.com/maps/search/?api=1&query=6VR9%2BV6G+Mantra+Valley+Mota+Varachha+Surat+Gujarat+394105"
+    window.open(mapsLink, "_blank")
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white">
 
@@ -58,6 +64,26 @@ export default function HybridLanding() {
             <p className="text-slate-200 mt-1">
               6VR9+V6G Mantra Valley, Mota Varachha, Surat, Gujarat 394105
             </p>
+
+            {/* Google Maps Button */}
+            <button
+              onClick={openGoogleMaps}
+              className="mt-4 px-6 py-3 bg-blue-500 rounded-xl text-white font-medium shadow-lg hover:scale-105 transition"
+            >
+              Open in Google Maps
+            </button>
+          </div>
+
+          {/* MINI GOOGLE MAP EMBED */}
+          <div className="mt-6 rounded-2xl overflow-hidden border border-white/10 shadow-xl">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.7923502710425!2d72.92355017538235!3d21.19662458106976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fd8a4b4f0cd%3A0x2ded08d564841c40!2sMantra%20Valley%2C%20Mota%20Varachha%2C%20Surat%2C%20Gujarat%20394105!5e0!3m2!1sen!2sin!4v1732000000000!5m2!1sen!2sin"
+              width="100%"
+              height="260"
+              allowFullScreen=""
+              loading="lazy"
+              className="rounded-2xl"
+            ></iframe>
           </div>
 
           {/* BUTTON */}
