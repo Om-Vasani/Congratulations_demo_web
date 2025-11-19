@@ -5,7 +5,7 @@ export default function HybridLanding() {
   const [showAIReply, setShowAIReply] = useState(false)
   const [showToast, setShowToast] = useState(false)
 
-  const whatsappNumber = '91XXXXXXXXXX'
+  const whatsappNumber = '916356084348'
   const prefilledMessage = encodeURIComponent("Hello! I want project details.")
 
   function handleWhatsAppClick() {
