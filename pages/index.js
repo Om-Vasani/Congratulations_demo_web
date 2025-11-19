@@ -32,7 +32,7 @@ export default function HybridLanding() {
               ⚡
             </div>
             <div>
-              <h1 className="text-2xl font-bold">Arkiton Premium</h1>
+              <h1 className="text-2xl font-bold">Mantra Valley </h1>
               <p className="text-xs text-slate-300">Super-Fast • AI Ready • Modern UI</p>
             </div>
           </div>
